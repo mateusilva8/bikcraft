@@ -2,6 +2,7 @@
 @import url(./util/tipografia.css);
 @import url(./util/cores.css);
 @import url(./global/header.css);
+@import url(./global/footer.css);
 
 @import url(./home/introducao.css);
 @import url(./home/tecnologia.css);
@@ -12,3 +13,6 @@
 @import url(./util/componentes.css);
 
 @import url(./bicicletas/bicicletas-lista.css);
+@import url(./bicicletas/bicicletas.css);
+
+@import url(./termos/termos.css);
