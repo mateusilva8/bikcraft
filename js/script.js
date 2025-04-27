@@ -32,7 +32,7 @@ function ativarPergunta(event) {
 
   resposta.classList.toggle("ativa");
   const ativa = resposta.classList.contains("ativa");
-  pergunta.setAttribute("aria-expanted", ativa);
+  pergunta.setAttribute("aria-expanded", ativa);
 }
 
 function eventosPerguntas(pergunta) {
@@ -58,3 +58,8 @@ function eventosGaleria(img) {
 }
 
 galeria.forEach(eventosGaleria);
+
+//Animação
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
